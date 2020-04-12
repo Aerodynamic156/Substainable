@@ -96,14 +96,14 @@ $result_s     = mysqli_query($con,$selectfood_s);
             </div>
             <div class="row text-dark px-3">
                 <div class="col-lg-4 col-xl-4 mx-auto border p-3">
-                    <h5 class="text-uppercase text-left text-dark">Dairy</h5>
+                    <h5 class="text-uppercase text-left text-dark">A brief overview</h5>
                     <hr><img class="img-fluid p-4" src="<?php echo $image; ?>">
                     <hr>
                     <p><?php echo $desc; ?></p>
                 </div>
                 <div class="col border py-3">
                     <div class="text-left">
-                        <h5 class="text-uppercase text-left"><strong>Carbon Foot Print&nbsp;</strong></h5>
+                        <h5 class="text-uppercase text-left"><strong>Carbon Foot Print (GWP [g CO2 eq. kg−1 fresh wt.])&nbsp;</strong></h5>
                         <hr>
                         <div>
                             <div class="row no-gutters">
@@ -134,10 +134,10 @@ $result_s     = mysqli_query($con,$selectfood_s);
                         <hr>
                     </div>
                     <div class="text-left">
-                        <h5 class="text-uppercase text-left"><strong>Calories</strong></h5>
+                        <h5 class="text-uppercase text-left"><strong>Calories/kg</strong></h5>
                         <hr>
                         <div>
-                            <h6><strong>Calories/kg&nbsp;:&nbsp;</strong><?php echo $cal; ?></h6>
+                            <h6><strong>&nbsp;:&nbsp;</strong><?php echo $cal; ?></h6>
                         </div>
                     </div>
                     <div class="mt-5">
@@ -146,7 +146,7 @@ $result_s     = mysqli_query($con,$selectfood_s);
                             <table class="table table-striped table-sm text-left">
                                 <thead>
                                     <tr>
-                                        <th><strong>Eco certified Brands</strong><br></th>
+                                        <th><strong>Recommended Brands</strong><br></th>
                                         <th><strong>Certification</strong><br></th>
                                     </tr>
                                 </thead>

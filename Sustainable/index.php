@@ -105,7 +105,7 @@ $result     = mysqli_query($con,$selectfood);
                 <div class="col-4 col-lg-2 col-xl-2 text-center icon-box">
                     <div class="text-center mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
                         <div class="text-center d-flex features-icons-icon"><img class="img-fluid icon-img" src="assets/img/protein.svg"></div>
-                        <h5>Protin</h5>
+                        <h5>Protein</h5>
                     </div>
                 </div>
                 <div class="col-4 col-lg-2 col-xl-2 text-center icon-box">

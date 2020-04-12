@@ -98,21 +98,23 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `description`, `gwp`, `cfp`, `calaries`, `image`, `name`) VALUES
-(1, 'Description Here. Please Update database', '257.2', 'Medium', '2590', 'assets/img/food/1.svg', 'Bread, Ryr'),
-(2, 'Description Here. Please Update database', '204.3', 'Medium', '2950', 'assets/img/food/2.svg', 'Burger'),
-(3, 'Description Here. Please Update database', '711.9', 'High', '3660', 'assets/img/food/3.svg', 'Rice (Ordinary)'),
-(4, 'Description Here. Please Update database', '858.9', 'High', '1429', 'assets/img/food/4.svg', 'Rice (Basmati)'),
-(5, 'Description Here. Please Update database', '132', 'Low', '870', 'assets/img/food/5.svg', 'Potato'),
-(6, 'Description Here. Please Update database', '128.4', 'Low', '250', 'assets/img/food/6.svg', 'Cauliflower'),
-(7, 'Description Here. Please Update database', '801.1', 'High', '2720', 'assets/img/food/7.svg', 'Potry meat'),
-(8, 'Description Here. Please Update database', '9149.3', 'Very High', '2940', 'assets/img/food/8.svg', 'Mutton'),
-(9, 'Description Here. Please Update database', '756.5', 'High', '1820', 'assets/img/food/9.svg', 'Fish, Wild Atlantic salmon fillet'),
-(10, 'Description Here. Please Update database', '668', 'High', '1550', 'assets/img/food/10.svg', 'Egg'),
-(11, 'Description Here. Please Update database', '608.7', 'High', '608.7', 'assets/img/food/11.svg', 'Omlette'),
-(12, 'Description Here. Please Update database', '766.8', 'High', '420', 'assets/img/food/12.svg', 'Milk'),
-(13, 'Description Here. Please Update database', '997.4', 'High', '7170', 'assets/img/food/13.svg', 'Butter'),
-(14, 'Description Here. Please Update database', '357.4', 'High', '520', 'assets/img/food/14.svg', 'Apple'),
-(15, 'Description Here. Please Update database', '97.6', 'Low', '890', 'assets/img/food/15.svg', 'Banana');
+(1, 'Rye bread is a type of bread made with various proportions of flour from rye grain. It can be light or dark in color, depending on the type of flour used and the addition of coloring agents, and is typically denser than bread made from wheat flour.', '257.2', 'Medium', '2590', 'assets/img/food/1.svg', 'Bread, Rye'),
+(2, 'A hamburger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.', '204.3', 'Medium', '2950', 'assets/img/food/2.svg', 'Burger'),
+(3, 'Japanese short grain rice (also known as ordinary rice or uruchimai 粳米) refers to a short-grain cultivar of Japonica rice that is characterized by its unique stickiness and texture. The kernels are plump and short in length. They also contain more moisture and are sticker than other types of rice.', '711.9', 'High', '3660', 'assets/img/food/3.svg', 'Rice (Ordinary)'),
+(4, 'Named after the sweet-smelling jasmine flower, jasmine rice is a long grain rice native to Thailand with a delicate floral and buttery scent. The secret to cooking it perfectly is getting the right ratio of water to rice. Typically, the instructions on the package call for 1-1/2 cups water for every 1 cup of rice.', '858.9', 'High', '1429', 'assets/img/food/4.svg', 'Rice (Basmati)'),
+(5, 'The potato is a root vegetable native to the Americas, a starchy tuber of the plant Solanum tuberosum, and the plant itself, a perennial in the family Solanaceae. Wild potato species, originating in modern day Peru, can be found throughout the Americas, from the United States to southern Chile.', '132', 'Low', '870', 'assets/img/food/5.svg', 'Potato'),
+(6, 'Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the family Brassicaceae. It is an annual plant that reproduces by seed. Typically, only the head is eaten – the edible white flesh sometimes called "curd".', '128.4', 'Low', '250', 'assets/img/food/6.svg', 'Cauliflower'),
+(7, '"Poultry" can be defined as domestic fowls, including chickens, turkeys, geese and ducks, raised for the production of meat or eggs and the word is also used for the flesh of these birds used as food.', '801.1', 'High', '2720', 'assets/img/food/7.svg', 'Poultry meat'),
+(8, 'Mutton. Mutton is meat from a sheep that is older than 1 year, ideally 3 years old. It is an intense red color and contains a considerable amount of fat. Its flavor is very strong, and you might have to acquire the taste before being able to enjoy a meal of mutton if you're an American.', '9149.3', 'Very High', '2940', 'assets/img/food/8.svg', 'Mutton'),
+(9, 'Many species of fish are consumed as food in virtually all regions around the world. Fish has been an important source of protein and other nutrients for humans throughout history.
+
+In culinary and fishery contexts, fish may include shellfish, such as molluscs, crustaceans and echinoderms.', '756.5', 'High', '1820', 'assets/img/food/9.svg', 'Fish, Wild Atlantic salmon fillet'),
+(10, 'Some eggs are laid by female animals of many different species, including birds, reptiles, amphibians, mammals, and fish, and have been eaten by humans for thousands of years.', '668', 'High', '1550', 'assets/img/food/10.svg', 'Egg'),
+(11, 'In cuisine, an omelette or omelet is a dish made from beaten eggs fried with butter or oil in a frying pan. It is quite common for the omelette to be folded around fillings such as cheese, chives, vegetables, mushrooms, meat, or some combination of the above.', '608.7', 'High', '608.7', 'assets/img/food/11.svg', 'Omelette'),
+(12, 'Milk is a nutrient-rich, white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for infant mammals before they are able to digest other types of food.', '766.8', 'High', '420', 'assets/img/food/12.svg', 'Milk'),
+(13, 'Butter is a dairy product made from the fat and protein components of milk or cream.', '997.4', 'High', '7170', 'assets/img/food/13.svg', 'Butter'),
+(14, 'An apple is a sweet, edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.', '357.4', 'High', '520', 'assets/img/food/14.svg', 'Apple'),
+(15, 'A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.', '97.6', 'Low', '890', 'assets/img/food/15.svg', 'Banana');
 
 --
 -- Indexes for dumped tables
