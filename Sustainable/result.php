@@ -74,7 +74,7 @@ $result_s     = mysqli_query($con,$selectfood_s);
                         <div class="form-row">
                             <div class="col-8 col-md-9 mb-2 mb-md-0">
                                
-                                <select name="id" id="id" required  class="form-control form-control-sm">
+                                <select name="id" id="itemId" required  class="form-control form-control-sm">
                                     <option value="">Select Food</option>
                                     <?php
                                     
@@ -87,7 +87,7 @@ $result_s     = mysqli_query($con,$selectfood_s);
                                     ?>
                                 </select>
                             </div>
-                            <div class="col-4 col-md-3"><button class="btn btn-success btn-block btn-sm" type="submit">Search</button></div>
+                            <div class="col-4 col-md-3"><button class="btn btn-success btn-block btn-lg" type="submit">Search</button></div>
                         </div>
                     </form>
                     <h3 class="text-info">Search Result "<em><?php echo $name; ?></em>"</h3>
@@ -188,7 +188,19 @@ $result_s     = mysqli_query($con,$selectfood_s);
         </div>
     </header>
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <link href="assets/js/jquery-ui.min.css" rel="stylesheet" />
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/combobox.js"></script>
+    
+    <script type="text/javascript">
+
+    $(document).ready(function()
+    {
+        $("#itemId").combobox();
+    });
+
+    </script>
 </body>
 
 </html>

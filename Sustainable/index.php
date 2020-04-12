@@ -54,8 +54,7 @@ $result     = mysqli_query($con,$selectfood);
                     <form action="result.php" method="GET">
                         <div class="form-row">
                             <div class="col-8 col-md-9 mb-2 mb-md-0">
-                               
-                                <select name="id" id="id" required  class="form-control form-control-lg">
+                                <select name="id" id="itemId" required  class="form-control form-control-lg">
                                     <option value="">Select Food</option>
                                     <?php
                                     
@@ -118,7 +117,20 @@ $result     = mysqli_query($con,$selectfood);
         </div>
     </section>
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <link href="assets/js/jquery-ui.min.css" rel="stylesheet" />
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/combobox.js"></script>
+    
+
+    <script type="text/javascript">
+
+    $(document).ready(function()
+    {
+        $("#itemId").combobox();
+    });
+
+    </script>
 </body>
 
 </html>
